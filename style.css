@@ -1,0 +1,40 @@
+#logo {
+    height: 100px;
+}
+
+.button {
+    width: 75px;
+    margin: 10px;
+}
+
+body {
+    background: #f46b45;
+    background: -webkit-linear-gradient(to right, #f46b45, #eea849);
+    background: linear-gradient(to right, #f46b45, #eea849);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-display {
+    width: 280px;
+    height: 280px;
+}
